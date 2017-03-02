@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Chapter 17</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/light.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +24,55 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        <section>
+          <!-- Title Slide -->
+          <h1>17. Voice &amp; Presence</h1>
+          <h3><i>Give Your Words the Life They Deserve</i></h3>
+          <br />
+          <h4 style="color: #666">~ Zachary Kaplan</h4>
+        </section>
+        <section>
+          <section>
+            <h2>Why Bother Giving a Talk?</h2>
+
+            <br />
+            <p class="fragment">A Deeper Meaning</p>
+            <p class="fragment">Inspiration</p>
+            <p class="fragment">Human Connection</p>
+          </section>
+          <section>
+            <h1>BUT...</h1>
+            <p class="fragment">This doesn't come free</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Speak with Meaning</h2>
+
+            <br />
+            <p class="fragment">Vary Speech Patterns</p>
+            <p class="fragment">Annotate/Emphasize Text by Meaning</p>
+            <p class="fragment">Speak Conversationally</p>
+          </section>
+          <section>
+            <h2>Recruit Your Body</h2>
+
+            <br />
+            <p class="fragment">Keep an Open Stance</p>
+            <p class="fragment">Optionally Walk Around</p>
+            <p class="fragment" style="color: #666"><i>Avoid Incessant Pacing</i></p>
+            <p class="fragment" style="color: #666"><i>Avoid Rocking</i></p> 
+            <p class="fragment">Keep it Natural</p>
+          </section>
+          <section>
+            <h1>Do It Your Way!</h1>
+            <p class="fragment">Keep it Genuine</p>
+          </section>
+        </section>
+        <section>
+          <h1>Thank You!</h1>
+          <p class="fragment" style="color: #666"><i>Questions?</i></p>
+        </section>
 			</div>
 		</div>
 
@@ -36,6 +83,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+        controls: false,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -43,7 +91,10 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+
+        width: 1920,
+        height: 1080,
 			});
 		</script>
 	</body>
